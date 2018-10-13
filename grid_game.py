@@ -40,7 +40,7 @@ def get_moves(player):
         moves.remove("DOWN")
     return moves
 
-
+#draws the map 
 def draw_map(player, monster, door):
     print(" _"*5)
     tile = "|{}"
