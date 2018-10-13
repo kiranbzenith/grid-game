@@ -13,7 +13,7 @@ CELLS = [(0, 0), (1, 0), (2, 0), (3, 0), (4, 0),
 def get_locations():
     return random.sample(CELLS, 3)
 
-
+#fuction to move a player
 def move_player(player, move):
     x, y = player
     if move == "LEFT":
@@ -26,7 +26,7 @@ def move_player(player, move):
         y += 1
     return x, y
 
-
+#fuction to get the movement from the user
 def get_moves(player):
     moves = ["LEFT", "RIGHT", "UP", "DOWN"]
     x, y = player
