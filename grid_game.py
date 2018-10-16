@@ -69,7 +69,7 @@ def draw_map(player, monster, door):
             else:
                 output = tile.format("_|")
         print(output, end=line_end)
-
+# game is in a loop
 def game_loop():
     monster, door, player = get_locations()
     playing = True
